@@ -43,11 +43,3 @@ body {
     width: 320px;
     border-radius: 1rem;
 }
-@media (max-width: 800px) {
-    .qr-container {
-        max-width: 350px;
-    }
-    .qr-image {
-        max-width: 330px;
-    }
-}
