@@ -39,9 +39,9 @@ body {
     max-width: 450px;
     gap: 1.2rem;
     padding: 1rem;
-    border: 2px solid black;
+    border: 2px solid var(--neutral-black);
     border-radius: 1rem;
-    box-shadow: 10px 10px 0 0 black;
+    box-shadow: 10px 10px 0 0 var(--neutral-black);
     background-color: var(--neutral-white);
     margin: 0.5rem;
 }
@@ -83,6 +83,17 @@ body {
 /*Styling instructor image*/
 .instructor img {
     width: 10%;
+}
+/*Efecto hover del card-container*/
+.card-container:hover {
+    cursor: pointer;
+    box-shadow: 20px 20px 0 0 var(--neutral-black);
+    transform: translate(-15px, -15px);
+    transition: box-shadow 200ms ease, transform 200ms ease;
+}
+.card-container:hover .card-title {
+    color: var(--primary-yellow);
+    transition: color 200ms ease;
 }
 /*Responsive Design*/
 @media (max-width: 375px) {
