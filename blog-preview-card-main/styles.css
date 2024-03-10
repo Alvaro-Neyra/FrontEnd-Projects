@@ -18,6 +18,7 @@
 /*Body Styles:*/
 body {
     font-family: var(--primary-font), Arial, Helvetica, sans-serif;
+    color: var(--neutral-black);
 }
 /*Aplicando los estilos al main-container*/
 .main-container {
@@ -25,6 +26,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--primary-yellow);
 }
 /*Card-container:*/
 .card-container {
@@ -33,15 +35,50 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    max-width: 400px;
+    max-width: 450px;
     gap: 1.2rem;
     padding: 1rem;
     border: 2px solid black;
     border-radius: 1rem;
-    box-shadow: 5px 5px 0 0 black;
+    box-shadow: 10px 10px 0 0 black;
+    background-color: var(--neutral-white);
 }
 /*Card-container image*/
 .card-container img {
     width: 100%;
     border-radius: 1rem;
+}
+/*Tag style*/
+.tag {
+    background-color: var(--primary-yellow);
+    font-weight: 800;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+/*Styling the date and the description font-sizes*/
+.date, .description {
+    font-size: calc(1rem + 2px);
+}
+/*card-container paragraph styles:*/
+.description {
+    color: var(--neutral-grey);
+}
+/*Styling the card title:*/
+.card-title {
+    font-weight: 800;
+    font-size: 1.7rem;
+}
+/*Styling the instructor class*/
+.instructor {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 0;
+    font-weight: 800;
+}
+/*Styling instructor image*/
+.instructor img {
+    width: 10%;
 }
