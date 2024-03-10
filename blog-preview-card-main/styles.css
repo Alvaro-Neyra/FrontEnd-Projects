@@ -10,3 +10,22 @@
     justify-content: center;
     align-items: center;
 }
+/*Card-container:*/
+.card-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 400px;
+    gap: 1.2rem;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 0 0 black;
+}
+/*Card-container image*/
+.card-container img {
+    width: 100%;
+    border-radius: 1rem;
+}
